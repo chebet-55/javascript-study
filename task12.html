@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="user">
+</div><script>
+let num1=prompt("enter num1")
+let num2=prompt("enter num2")
+let num3=prompt("enter num3")
+let num4=prompt("enter num4")
+if (num1>num2 && num1>num3 && num1>num4){
+ document.getElementById("user").innerHTML=num1 + "is the largest"   
+}else if (num2>num1 && num2>num3 && num2>num4){
+    document.getElementById("user").innerHTML= num2 + "is the largest"
+}else if (num3>num1 && num3>num2 && num3>num4){
+    document.getElementById("user").innerHTML=num3 + "is the largest"
+}else {
+    document.getElementById("user").innerHTML=num4 +"is the largest"
+}
+
+
+
+</script>
+</body>
+</html>
